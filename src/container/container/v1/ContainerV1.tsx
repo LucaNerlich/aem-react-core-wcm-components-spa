@@ -32,6 +32,7 @@ import {
 export interface ContainerV1Properties extends CoreContainerProperties, ResponsiveGridProperties {
     backgroundStyle: string;
     id: string;
+    children: Array<JSX.Element>;
     layout?: 'responsiveGrid' | 'simple';
 }
 

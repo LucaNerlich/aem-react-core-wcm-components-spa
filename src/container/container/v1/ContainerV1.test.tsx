@@ -52,6 +52,7 @@ const defaultProps:ContainerV1Properties = {
         'test2': COLUMN_2_CLASS_NAMES
     },
     gridClassNames: GRID_CLASS_NAMES,
+    children: [],
     allowedComponents: allowedComponents,
     componentMapping: ComponentMapping
 };

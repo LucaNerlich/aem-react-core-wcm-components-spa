@@ -49,6 +49,7 @@ const filledProps:ContainerV1Properties = {
         'test2': COLUMN_2_CLASS_NAMES
     },
     gridClassNames: GRID_CLASS_NAMES,
+    children: [],
     allowedComponents: allowedComponents,
     componentMapping: ComponentMapping
 };
@@ -67,6 +68,7 @@ const emptyProps1:ContainerV1Properties = {
         'test2': COLUMN_2_CLASS_NAMES
     },
     gridClassNames: GRID_CLASS_NAMES,
+    children: [],
     allowedComponents: allowedComponents,
     componentMapping: ComponentMapping
 };
